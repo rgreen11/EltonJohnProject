@@ -1,0 +1,65 @@
+#li{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.i-via{
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    animation-name: moveInRight;
+    animation-duration: 2s;
+    
+}
+
+.i-go1{
+    font-style: normal;
+    font-size: 30px;
+    color: #8CC63F;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+.i-go2{
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+@keyframes moveInRight{
+    0%{
+        opacity: 0;
+        padding-right: 30%
+    }
+
+    80%{
+        opacity: 1;
+        padding-right: 5%
+    }
+
+    100%{
+        opacity: 1;
+        padding-right: 0%
+    }
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+
+    }
+
+    100%{
+        opacity: 1;
+
+    }
+}
+

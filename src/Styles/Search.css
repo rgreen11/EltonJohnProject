@@ -1,0 +1,17 @@
+.search{
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   margin-top: 5px;
+   flex: 1;
+}
+
+.search-location{
+    background-color: #30344A;
+    color: white;
+
+}
+
+.tpt{
+    margin-bottom: 2px;
+}

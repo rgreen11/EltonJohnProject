@@ -1,0 +1,16 @@
+.searcha{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+ }
+ 
+ .search-advance{
+     display: flex;
+     background-color: #30344A;
+     color: white;
+ }
+
+ .btn_color{
+    background-color: #ECECED !important;
+    padding-left: 50%
+ }
