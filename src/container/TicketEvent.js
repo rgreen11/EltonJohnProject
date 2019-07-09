@@ -17,9 +17,12 @@ class TicketEvent extends React.Component{
 
     updateLocation = (event) => {
         let location = event.target.value
+        console.log(location)
         EltonJohnEvents.Items.forEach((event)=>{
             if( event.VenueCity === location){
                 this.setState({ location: event })
+            } else if(event.VenueCity === 'All cities'){
+                this.setState({ location: 'All cities' })
             }
         })
         
